@@ -1,16 +1,21 @@
-# INET4031 - Module 6 - Working with Remote Systems
+# INET 4031 - Module 4 - Lab 4
 
-## Instructions, files, code for Lab 6.
+## 📌 Purpose
+This repository is for **INET 4031 - Module 4 - Lab 4**.  
+The goal of this lab is to modify an existing HTML/JavaScript webpage to display my **name**, update the **background color**, and add a **button interaction**.
 
-What if you aren't nearby the computer you need to work on?
+## 🔹 Features
+- Displays **Seare Mebrahtu** on the page.
+- Updated background color to **light gray**.
+- A **button** that, when clicked, reveals the class and lab information.
+- Simple, clean formatting for readability.
 
-Up until this point, our Lab activities have been accomplished by doing them on our laptops.
+## 🔹 How to Use
+1. Open **`webpagewithjs.html`** in a web browser.
+2. Click the **button** to display the **class and lab details**.
 
-In this activity we explore the concept of "servers."  Which typically aren't located where we are.
-
-We have to connect to them remotely
-
-This Lab explores that concept.
-
-
-
+## 📂 Repository Details
+- **Course:** INET 4031  
+- **Module:** 4  
+- **Lab:** 4  
+- **GitHub Repository Name:** `inet4031-lab4-website` 
