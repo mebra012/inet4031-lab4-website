@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seare's Lab 4</title>
+    <style>
+        body {
+            background-color: lightgray; /* Updated Background Color */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: darkblue;
+        }
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
 <body>
+    <h1>Seare Mebrahtu</h1>
+    <p>We edited the lightbulb page to display my name.</p>
+    <p>Click the button to see what assignment and class this is for.</p>
 
-<h2>Simple Web Page with HTML and JavaScript</h2>
+    <button onclick="showInfo()">Click Here</button>
+    <p id="info"></p>
 
-<p>JavaScript can change HTML attribute values.</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
-
+    <script>
+        function showInfo() {
+            document.getElementById("info").innerHTML = "INET 4031 - Module 4 - Lab 4";
+        }
+    </script>
 </body>
 </html>
